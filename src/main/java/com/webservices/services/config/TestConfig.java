@@ -15,6 +15,7 @@ import java.util.Arrays;
 @Configuration
 @Profile("test") // test name same as application.properties
 public class TestConfig implements CommandLineRunner { // run this application only test profile
+
     @Autowired // to Spring resolve dependency and associate instance UserRepository in TestConfig
     private UserRepository userRepository; // access data
 
