@@ -1,17 +1,26 @@
 package com.webservices.services.entities;
 
+import jakarta.persistence.*;
+
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
 
+@Entity
+@Table(name = "tb_payment")
 public class Payment implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Instant moment;
+
+    @OneToOne
+    @MapsId
     private Order order;
 
     public Payment() {}
 
-    public Payment(Instant moment, Order order, Long id) {
+    public Payment(Long id, Instant moment, Order order) {
         this.moment = moment;
         this.order = order;
         this.id = id;
