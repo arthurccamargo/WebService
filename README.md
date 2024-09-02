@@ -14,6 +14,6 @@ WebService é um projeto Back-end de uma loja de eletrônicos que trabalha com a
 ## Tecnologias utilizadas
 * Java
 * Spring Boot
-* JPA
+* Spring Data JPA
 * Maven
-* Banco de dados H2 
+* Banco de dados H2  
