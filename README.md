@@ -1,7 +1,7 @@
 # WebService
 
 ## Sobre o projeto
-WebService é um projeto Back-end de uma loja de eletrônicos que trabalha com as relações entre as entidades Product, Category, Order, OrderItem, User e Payment 
+WebService é um projeto back-end de uma API de uma loja de eletrônicos que trabalha com as relações entre as entidades Product, Category, Order, OrderItem, User e Payment 
 
 ![webservices](https://github.com/arthurccamargo/WebServices/assets/118135851/d8b4c8fb-6863-4c76-bf1c-cd193e2e055d)
 
